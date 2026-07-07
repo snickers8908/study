@@ -1,0 +1,84 @@
+14:46:52 INFO    [MainThread] Logging to C:\Users\322494\OneDrive - Saddle Creek Logistics Services\Documents\Python\ios_puller\logs\20260707_144652
+14:46:52 INFO    [MainThread] === IOS puller run started (debug=True) ===
+14:46:57 INFO    [MainThread] Loaded 6 host(s): 10.240.0.198, 10.240.0.199, 10.10.127.41, 10.10.127.18, 10.10.127.16, 10.10.127.10
+14:47:26 INFO    [MainThread] 10.240.0.198: starting assessment
+14:47:26 DEBUG   [MainThread] 10.240.0.198: connecting as cisco_ios
+14:47:29 INFO    [MainThread] 10.240.0.198: connected as cisco_ios
+14:47:29 DEBUG   [MainThread] 10.240.0.198 >>> show version
+14:47:32 INFO    [MainThread] 10.240.0.198: detected platform = nxos
+14:47:32 INFO    [MainThread] 10.240.0.198: model=C93180YC-EX -> version=10.3(8) M image=nxos64-cs.10.3.8.M.bin
+14:47:34 INFO    [MainThread] 10.240.0.198: reachable=True vrf=default
+14:47:34 DEBUG   [MainThread] 10.240.0.198: image_present=True already_running=False
+14:47:34 INFO    [MainThread] 10.240.0.198: image already in bootflash — skipping pull
+14:47:34 INFO    [MainThread] 10.240.0.199: starting assessment
+14:47:34 DEBUG   [MainThread] 10.240.0.199: connecting as cisco_ios
+14:47:37 INFO    [MainThread] 10.240.0.199: connected as cisco_ios
+14:47:37 DEBUG   [MainThread] 10.240.0.199 >>> show version
+14:47:40 INFO    [MainThread] 10.240.0.199: detected platform = nxos
+14:47:40 INFO    [MainThread] 10.240.0.199: model=C93180YC-EX -> version=10.3(8) M image=nxos64-cs.10.3.8.M.bin
+14:47:41 INFO    [MainThread] 10.240.0.199: reachable=True vrf=default
+14:47:42 DEBUG   [MainThread] 10.240.0.199: image_present=True already_running=False
+14:47:42 INFO    [MainThread] 10.240.0.199: image already in bootflash — skipping pull
+14:47:42 INFO    [MainThread] 10.10.127.41: starting assessment
+14:47:42 DEBUG   [MainThread] 10.10.127.41: connecting as cisco_ios
+14:47:44 INFO    [MainThread] 10.10.127.41: connected as cisco_ios
+14:47:44 DEBUG   [MainThread] 10.10.127.41 >>> show version
+14:47:45 INFO    [MainThread] 10.10.127.41: detected platform = ios
+14:47:45 INFO    [MainThread] 10.10.127.41: model=C9200L-48P-4G -> version=17.15.5 image=cat9k_lite_iosxe.17.15.05.SPA.bin
+14:47:45 INFO    [MainThread] 10.10.127.41: reachable=True vrf=default
+14:47:47 DEBUG   [MainThread] 10.10.127.41: image_present=False already_running=False
+14:47:48 INFO    [MainThread] 10.10.127.18: starting assessment
+14:47:48 DEBUG   [MainThread] 10.10.127.18: connecting as cisco_ios
+14:47:49 INFO    [MainThread] 10.10.127.18: connected as cisco_ios
+14:47:49 DEBUG   [MainThread] 10.10.127.18 >>> show version
+14:47:50 INFO    [MainThread] 10.10.127.18: detected platform = ios
+14:47:50 INFO    [MainThread] 10.10.127.18: model=C9300-24T -> version=17.15.5 image=cat9k_iosxe.17.15.05.SPA.bin
+14:48:07 INFO    [MainThread] 10.10.127.18: reachable=True vrf=Mgmt-vrf
+14:48:09 DEBUG   [MainThread] 10.10.127.18: image_present=False already_running=False
+14:48:09 INFO    [MainThread] 10.10.127.16: starting assessment
+14:48:09 DEBUG   [MainThread] 10.10.127.16: connecting as cisco_ios
+14:48:11 INFO    [MainThread] 10.10.127.16: connected as cisco_ios
+14:48:11 DEBUG   [MainThread] 10.10.127.16 >>> show version
+14:48:12 INFO    [MainThread] 10.10.127.16: detected platform = ios
+14:48:12 INFO    [MainThread] 10.10.127.16: model=C9300-24T -> version=17.15.5 image=cat9k_iosxe.17.15.05.SPA.bin
+14:48:29 INFO    [MainThread] 10.10.127.16: reachable=True vrf=Mgmt-vrf
+14:48:31 DEBUG   [MainThread] 10.10.127.16: image_present=False already_running=False
+14:48:31 INFO    [MainThread] 10.10.127.10: starting assessment
+14:48:31 DEBUG   [MainThread] 10.10.127.10: connecting as cisco_ios
+14:48:32 INFO    [MainThread] 10.10.127.10: connected as cisco_ios
+14:48:32 DEBUG   [MainThread] 10.10.127.10 >>> show version
+14:48:33 INFO    [MainThread] 10.10.127.10: detected platform = ios
+14:48:33 INFO    [MainThread] 10.10.127.10: model=C8300 -> version=17.15.5 image=c8000be-universalk9.17.15.05.SPA.bin
+14:48:45 INFO    [MainThread] 10.10.127.10: reachable=True vrf=Mgmt
+14:48:47 DEBUG   [MainThread] 10.10.127.10: image_present=True already_running=False
+14:48:47 INFO    [MainThread] 10.10.127.10: image already in bootflash — skipping pull
+14:49:19 INFO    [ThreadPoolExecutor-0_2] 10.10.127.16: connected (cisco_ios)
+14:49:19 INFO    [ThreadPoolExecutor-0_0] 10.10.127.41: connected (cisco_ios)
+14:49:19 INFO    [ThreadPoolExecutor-0_1] 10.10.127.18: connected (cisco_ios)
+14:49:20 INFO    [ThreadPoolExecutor-0_2] 10.10.127.16: target filesystem = bootflash:, image = cat9k_iosxe.17.15.05.SPA.bin, vrf = Mgmt-vrf
+14:49:20 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> copy scp: bootflash:
+14:49:20 INFO    [ThreadPoolExecutor-0_0] 10.10.127.41: target filesystem = bootflash:, image = cat9k_lite_iosxe.17.15.05.SPA.bin, vrf = default
+14:49:20 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> copy scp: bootflash:
+14:49:20 INFO    [ThreadPoolExecutor-0_1] 10.10.127.18: target filesystem = bootflash:, image = cat9k_iosxe.17.15.05.SPA.bin, vrf = Mgmt-vrf
+14:49:20 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> copy scp: bootflash:
+14:49:22 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> 10.250.77.6
+14:49:22 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> 10.250.77.6
+14:49:23 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> 10.250.77.6
+14:49:24 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> 322494
+14:49:25 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> 322494
+14:49:25 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> 322494
+14:49:27 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> cat9k_iosxe.17.15.05.SPA.bin
+14:49:27 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> cat9k_lite_iosxe.17.15.05.SPA.bin
+14:49:27 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> cat9k_iosxe.17.15.05.SPA.bin
+14:49:29 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> cat9k_iosxe.17.15.05.SPA.bin
+14:49:29 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> cat9k_lite_iosxe.17.15.05.SPA.bin
+14:49:29 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> cat9k_iosxe.17.15.05.SPA.bin
+14:49:31 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> ********
+14:49:32 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> ********
+14:49:34 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> ********
+14:49:38 DEBUG   [ThreadPoolExecutor-0_0] 10.10.127.41 >>> <enter>
+14:49:40 ERROR   [ThreadPoolExecutor-0_0] 10.10.127.41: copy error detected: e.17.15.05.SPA.bin  %Error copying scp://*@10.250.77.6/cat9k_lite_iosxe.17.15.05.SPA.b
+14:50:01 DEBUG   [ThreadPoolExecutor-0_2] 10.10.127.16 >>> <enter>
+14:50:02 DEBUG   [ThreadPoolExecutor-0_1] 10.10.127.18 >>> <enter>
+14:50:04 ERROR   [ThreadPoolExecutor-0_2] 10.10.127.16: copy error detected: ost not responding  %Error opening scp://*@10.250.77.6/cat9k_iosxe.17.15.05.SPA.bin (U
+14:50:04 ERROR   [ThreadPoolExecutor-0_1] 10.10.127.18: copy error detected: ost not responding  %Error opening scp://*@10.250.77.6/cat9k_iosxe.17.15.05.SPA.bin (U
